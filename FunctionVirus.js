@@ -12,7 +12,7 @@ function VirusBody () {
   )
 }
 
-export default function Virus () {
+export default function FunctionVirus () {
   return(
     <Canvas>
       <OrbitControls />

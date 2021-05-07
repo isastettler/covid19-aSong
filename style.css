@@ -1,38 +1,33 @@
 body {
     margin: 0;
     height: 100vh;
+    background: linear-gradient(#EDBECA, #F7A1BB);
 }
-
-canvas {
-    display: block;
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 
 h1 {
-    position:absolute;
     font-family: 'Vtks DeloresAmores';
     font-size: 8em;
     color: #3EF216;
     width: auto;
-    top: 0.2em;
-    left: 3em;
+    margin: 0;
 }
 
 h3 {
-    position: absolute;
     font-family: 'Vtks DeloresAmores';
     font-size: 3em;
     color: #3EF216;
     width: auto;
-    top: 4em;
-    left: 10em;
-
+    margin: 0;
 }
 
 #app {
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
-	background: linear-gradient(#EDBECA, #F7A1BB);
+	overflow: hidden;	
 }
 

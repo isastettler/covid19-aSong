@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import * as THREE from "three";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
-export class OrganizedVirus extends Component {
+export default class ClassVirus extends Component {
 	componentDidMount() {
 		//define scene hight and width
 		let HEIGHT = window.innerHeight;
@@ -183,7 +183,7 @@ export class OrganizedVirus extends Component {
 
 		function createVirus() {
 			virus = new createBody();
-			virus.mesh.position.y = -2;
+			virus.mesh.position.y = 2;
 			virus.mesh.rotation.y = Math.PI;
 			scene.add(virus.mesh);
 		}
